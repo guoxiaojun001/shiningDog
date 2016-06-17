@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+   
+      <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Button 
+        android:id="@+id/bt1"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="截图"
+        />
+         <Button 
+        android:id="@+id/bt2"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="撤销"
+        />
+    </LinearLayout>
+    
+   <RelativeLayout 
+  	    android:id="@+id/content"
+  	    android:layout_width="match_parent"
+  	    android:layout_height="0dp"
+  	    android:layout_weight="1"
+  	    android:background="@mipmap/f"
+  	    >
+	 
+	    <freeman.rx.gxj.com.shiningdog.view.TouchImageView
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:src="@mipmap/s_hx"
+	        android:scaleType="matrix"
+	        android:id="@+id/tImage"
+	        />
+
+
+	   <!--<freeman.rx.gxj.com.shiningdog.view.MineImageView-->
+		   <!--android:layout_width="match_parent"-->
+		   <!--android:layout_height="match_parent"-->
+		   <!--android:src="@mipmap/s_hx"-->
+		   <!--android:scaleType="matrix"-->
+		   <!--android:id="@+id/mImage"-->
+		   <!--/>-->
+
+	   <!--<freeman.rx.gxj.com.shiningdog.view.PatImageView-->
+		   <!--android:layout_width="match_parent"-->
+		   <!--android:layout_height="match_parent"-->
+		   <!--android:src="@mipmap/s_hx"-->
+		   <!--android:scaleType="matrix"-->
+		   <!--android:id="@+id/patImageView"-->
+		   <!--/>-->
+
+    </RelativeLayout>
+    
+   
+    <LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="75dp"
+	    android:background="@color/gary_bg"
+	    >
+	    <ImageView 
+	        android:layout_weight="1"
+	        android:layout_width="0dp"
+	        android:layout_margin="10dp"
+	        android:layout_gravity="center_vertical"
+	        android:layout_height="50dp"
+	        android:background="@mipmap/aa"
+	        />
+	    <ImageView 
+	        android:layout_weight="1"
+	        android:layout_width="0dp"
+	        android:layout_margin="10dp"
+	        android:layout_gravity="center_vertical"
+	        android:layout_height="50dp"
+	        android:background="@mipmap/bb"
+	        />
+	    <ImageView 
+	        android:layout_weight="1"
+	        android:layout_width="0dp"
+	        android:layout_margin="10dp"
+	        android:layout_gravity="center_vertical"
+	        android:layout_height="50dp"
+	        android:background="@mipmap/s_hx"
+	        />
+	    <ImageView 
+	        android:layout_weight="1"
+	        android:layout_width="0dp"
+	        android:layout_margin="10dp"
+	        android:layout_gravity="center_vertical"
+	        android:layout_height="50dp"
+	        android:background="@mipmap/cc"
+	        />
+	    <ImageView 
+	        android:layout_weight="1"
+	        android:layout_width="0dp"
+	        android:layout_margin="8dp"
+	        android:layout_gravity="center_vertical"
+	        android:layout_height="50dp"
+	        android:background="@mipmap/ss"
+	        />
+	</LinearLayout>
+</LinearLayout>
